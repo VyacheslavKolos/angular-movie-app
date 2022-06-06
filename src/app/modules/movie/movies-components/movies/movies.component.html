@@ -1,0 +1,14 @@
+<div class="movies-wrap">
+  <div class="movies-container">
+
+    <h1><b>Best movies</b> this season</h1>
+
+    <div class="movies-List">
+      <app-movie  *ngFor="let movie of movies" [movie]="movie"></app-movie>
+    </div>
+
+    <app-pagination></app-pagination>
+
+  </div>
+
+</div>

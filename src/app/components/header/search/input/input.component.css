@@ -1,0 +1,9 @@
+.example-form-field {
+  width: 200px;
+}
+.search__wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.movies-wrap{
+
+}
+.movies-container{
+  max-width: 1140px;
+  margin: 60px auto;
+}
+
+.movies-List{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 60px;
+
+}
